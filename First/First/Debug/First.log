@@ -1,0 +1,11 @@
+﻿  First.cpp
+First.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+First.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+C:\Personal\Lib\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Personal\Lib\OpenGL32.Lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Personal\Lib\glew32s.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Personal\Lib\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Personal\Lib\glfw3_mt.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Personal\Lib\glfw3dll.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+lib\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Personal\FirstProjectWithOpenGl\First\Debug\First.exe : fatal error LNK1120: 2 unresolved externals
