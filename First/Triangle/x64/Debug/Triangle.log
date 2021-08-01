@@ -1,2 +1,6 @@
 ﻿  Main.cpp
+C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(53,19): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(79,19): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(105,19): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(124,20): warning C4154: deletion of an array expression; conversion to pointer supplied
   Triangle.vcxproj -> C:\Personal\FirstProjectWithOpenGl\First\x64\Debug\Triangle.exe
