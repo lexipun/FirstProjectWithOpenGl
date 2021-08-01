@@ -83,13 +83,16 @@ void SetFragmentShaderYellow(unsigned int& fragmentShader) {
 
 	const char* fragmentShaderSource = "#version 330 core\n"
 		"out vec4 FragColor;\n"
+		"uniform vec4 ourColor;\n"
 		"void main()\n"
 		"{\n"
-		"   FragColor = vec4(1.0f, 1.0f, 0.0f, 1.0f);\n"
+		"   FragColor = ourColor;\n"
 		"}\n\0";
 
 	int  success;
 	char infoLog[512];
+
+
 
 	fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
 	glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
@@ -130,14 +133,22 @@ void AttachShaders(unsigned int& shaderProgram, unsigned int& vertexShader, unsi
 }
 
 void Render(unsigned int& shaderProgramYellow,unsigned int& shaderProgram, unsigned int &VAO, unsigned int &EBO ) {
+	float timeValue = glfwGetTime();
+	float greenValue = (sin(timeValue) / 2.0f) + 0.5f;
+	int vertexColorLocation = glGetUniformLocation(shaderProgramYellow, "ourColor");
+
 	glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	glUseProgram(shaderProgram);
+
+	glUseProgram(shaderProgramYellow);
+	glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
+
 	glBindVertexArray(VAO);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 	glDrawArrays(GL_TRIANGLES, 0, 3);
-	glUseProgram(shaderProgramYellow);
+	//		glUseProgram(shaderProgramYellow);
+	glUseProgram(shaderProgram);
 
 	glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, 0);
 
@@ -191,6 +202,9 @@ int main()
 	SetVertexShader(vertexShader);
 	SetFragmentShader(fragmentShader);
 	SetFragmentShaderYellow(fragmentShaderYellow);
+
+
+
 	AttachShaders(shaderProgram, vertexShader, fragmentShader);
 	AttachShaders(shaderProgramWithYellow, vertexShader, fragmentShaderYellow);
 
