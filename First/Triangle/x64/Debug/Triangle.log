@@ -1,8 +1,8 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Triangle.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Main.cpp
 C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(53,19): warning C4154: deletion of an array expression; conversion to pointer supplied
-C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(79,19): warning C4154: deletion of an array expression; conversion to pointer supplied
-C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(108,19): warning C4154: deletion of an array expression; conversion to pointer supplied
-C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(127,20): warning C4154: deletion of an array expression; conversion to pointer supplied
-C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(136,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(82,19): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(111,19): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(130,20): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(157,15): warning C4101: 'vertexShader': unreferenced local variable
   Triangle.vcxproj -> C:\Personal\FirstProjectWithOpenGl\First\x64\Debug\Triangle(02).exe

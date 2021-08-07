@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmptyWindow(01)", "First\First.vcxproj", "{47F588A7-B36F-4006-9DC8-486739EDBD06}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triangle", "Triangle\Triangle.vcxproj", "{896EE59E-1B0D-406D-BB00-C9FBDD69F023}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triangle(02)", "Triangle\Triangle.vcxproj", "{896EE59E-1B0D-406D-BB00-C9FBDD69F023}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorableTriangle(03)", "Colorable triangle\Colorable triangle.vcxproj", "{3B66B20B-41B3-4BCD-9DAF-7D555072CE0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{896EE59E-1B0D-406D-BB00-C9FBDD69F023}.Release|x64.Build.0 = Release|x64
 		{896EE59E-1B0D-406D-BB00-C9FBDD69F023}.Release|x86.ActiveCfg = Release|Win32
 		{896EE59E-1B0D-406D-BB00-C9FBDD69F023}.Release|x86.Build.0 = Release|Win32
+		{3B66B20B-41B3-4BCD-9DAF-7D555072CE0E}.Debug|x64.ActiveCfg = Debug|x64
+		{3B66B20B-41B3-4BCD-9DAF-7D555072CE0E}.Debug|x64.Build.0 = Debug|x64
+		{3B66B20B-41B3-4BCD-9DAF-7D555072CE0E}.Debug|x86.ActiveCfg = Debug|Win32
+		{3B66B20B-41B3-4BCD-9DAF-7D555072CE0E}.Debug|x86.Build.0 = Debug|Win32
+		{3B66B20B-41B3-4BCD-9DAF-7D555072CE0E}.Release|x64.ActiveCfg = Release|x64
+		{3B66B20B-41B3-4BCD-9DAF-7D555072CE0E}.Release|x64.Build.0 = Release|x64
+		{3B66B20B-41B3-4BCD-9DAF-7D555072CE0E}.Release|x86.ActiveCfg = Release|Win32
+		{3B66B20B-41B3-4BCD-9DAF-7D555072CE0E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
