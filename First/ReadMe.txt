@@ -1,0 +1,1 @@
+If you use intel you have install ig9icd64.dll  to C:\Windows\SysWOW64 and C:\Windows\System32

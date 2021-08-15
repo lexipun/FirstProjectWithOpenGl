@@ -1,9 +1,6 @@
 ﻿  Main.cpp
-C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(60,15): warning C4101: 'EBO': unreferenced local variable
-C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(56,15): warning C4101: 'shaderProgram': unreferenced local variable
-C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(54,16): warning C4101: 'fragmentShader': unreferenced local variable
-C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(55,16): warning C4101: 'fragmentShaderYellow': unreferenced local variable
-C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(52,15): warning C4101: 'vertexShader': unreferenced local variable
-C:\Personal\FirstProjectWithOpenGl\First\Triangle\Main.cpp(57,15): warning C4101: 'shaderProgramWithYellow': unreferenced local variable
+  Shader.cpp
+C:\Personal\FirstProjectWithOpenGl\First\Colorable triangle\Shader.cpp(99,54): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  Generating Code...
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Colorable triangle.vcxproj -> C:\Personal\FirstProjectWithOpenGl\First\x64\Debug\ColorableTriangle(03).exe

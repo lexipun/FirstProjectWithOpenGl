@@ -30,15 +30,9 @@ void SetWindowSettings(GLFWwindow* &window) {
 
 int main()
 {
-	unsigned int vertexShader;
 	
-		unsigned int fragmentShader;
-		unsigned int fragmentShaderYellow;
-	unsigned int shaderProgram;
-	unsigned int shaderProgramWithYellow;
 	unsigned int VBO;
 	unsigned int VAO;
-	unsigned int EBO;
 		float vertices[] = {
 	 0.5f, -0.5f, 0.0f,   1.0f, 0.0f, 0.0f, 
 	-0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,  
