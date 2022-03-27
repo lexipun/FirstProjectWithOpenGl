@@ -154,6 +154,11 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Colorable triangle\Colorable triangle.vcxproj">
+      <Project>{3b66b20b-41b3-4bcd-9daf-7d555072ce0e}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

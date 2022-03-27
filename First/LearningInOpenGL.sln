@@ -9,7 +9,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triangle(02)", "Triangle\Tr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorableTriangle(03)", "Colorable triangle\Colorable triangle.vcxproj", "{3B66B20B-41B3-4BCD-9DAF-7D555072CE0E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TriangleWithTextures", "TriangleWithTextures\TriangleWithTextures.vcxproj", "{4CCEF229-992D-499D-9FD9-65C859C4D482}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TriangleWithTextures(04)", "TriangleWithTextures\TriangleWithTextures.vcxproj", "{4CCEF229-992D-499D-9FD9-65C859C4D482}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoveableRectangleWithTexture", "MoveableRectangleWithTexture\MoveableRectangleWithTexture.vcxproj", "{724361B5-AEB3-4642-BF64-7EEE8876319F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{4CCEF229-992D-499D-9FD9-65C859C4D482}.Release|x64.Build.0 = Release|x64
 		{4CCEF229-992D-499D-9FD9-65C859C4D482}.Release|x86.ActiveCfg = Release|Win32
 		{4CCEF229-992D-499D-9FD9-65C859C4D482}.Release|x86.Build.0 = Release|Win32
+		{724361B5-AEB3-4642-BF64-7EEE8876319F}.Debug|x64.ActiveCfg = Debug|x64
+		{724361B5-AEB3-4642-BF64-7EEE8876319F}.Debug|x64.Build.0 = Debug|x64
+		{724361B5-AEB3-4642-BF64-7EEE8876319F}.Debug|x86.ActiveCfg = Debug|Win32
+		{724361B5-AEB3-4642-BF64-7EEE8876319F}.Debug|x86.Build.0 = Debug|Win32
+		{724361B5-AEB3-4642-BF64-7EEE8876319F}.Release|x64.ActiveCfg = Release|x64
+		{724361B5-AEB3-4642-BF64-7EEE8876319F}.Release|x64.Build.0 = Release|x64
+		{724361B5-AEB3-4642-BF64-7EEE8876319F}.Release|x86.ActiveCfg = Release|Win32
+		{724361B5-AEB3-4642-BF64-7EEE8876319F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,3 +1,6 @@
 ﻿  Main.cpp
 C:\Personal\FirstProjectWithOpenGl\First\Colorable triangle\Shader.cpp(99,54): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  stb_image.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   TriangleWithTextures.vcxproj -> C:\Personal\FirstProjectWithOpenGl\First\x64\Debug\TriangleWithTextures(04).exe
